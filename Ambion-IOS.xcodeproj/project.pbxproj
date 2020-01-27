@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A83A4B7B20D6C13F85DCFFA /* Pods_Ambion_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78ADBFBC33B052DFCD68A604 /* Pods_Ambion_IOS.framework */; };
+		68622AE223DF2F4000F82663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68622AE123DF2F4000F82663 /* AppDelegate.swift */; };
+		68622AE423DF2F4000F82663 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68622AE323DF2F4000F82663 /* SceneDelegate.swift */; };
+		68622AE623DF2F4000F82663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68622AE523DF2F4000F82663 /* ViewController.swift */; };
+		68622AE923DF2F4000F82663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68622AE723DF2F4000F82663 /* Main.storyboard */; };
+		68622AEC23DF2F4000F82663 /* Ambion_IOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68622AEA23DF2F4000F82663 /* Ambion_IOS.xcdatamodeld */; };
+		68622AEE23DF2F4100F82663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68622AED23DF2F4100F82663 /* Assets.xcassets */; };
+		68622AF123DF2F4100F82663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68622AEF23DF2F4100F82663 /* LaunchScreen.storyboard */; };
+		68622AFC23DF2F4200F82663 /* Ambion_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68622AFB23DF2F4200F82663 /* Ambion_IOSTests.swift */; };
+		68622B0723DF2F4200F82663 /* Ambion_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68622B0623DF2F4200F82663 /* Ambion_IOSUITests.swift */; };
+		C443E0B819F53D257F8602C8 /* Pods_Ambion_IOS_Ambion_IOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BB9379F8E575F08F6C822D /* Pods_Ambion_IOS_Ambion_IOSUITests.framework */; };
+		ED981C51BF065A6BEDBA35CA /* Pods_Ambion_IOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7E18C2085385C1879DCEF8 /* Pods_Ambion_IOSTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68622AF823DF2F4200F82663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68622AD623DF2F4000F82663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68622ADD23DF2F4000F82663;
+			remoteInfo = "Ambion-IOS";
+		};
+		68622B0323DF2F4200F82663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68622AD623DF2F4000F82663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68622ADD23DF2F4000F82663;
+			remoteInfo = "Ambion-IOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02CF2DA2F22A1FB11221E134 /* Pods-Ambion-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ambion-IOS.release.xcconfig"; path = "Target Support Files/Pods-Ambion-IOS/Pods-Ambion-IOS.release.xcconfig"; sourceTree = "<group>"; };
+		3575B6A77337D2B197C53432 /* Pods-Ambion-IOS-Ambion-IOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ambion-IOS-Ambion-IOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ambion-IOS-Ambion-IOSUITests/Pods-Ambion-IOS-Ambion-IOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		68622ADE23DF2F4000F82663 /* Ambion-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ambion-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68622AE123DF2F4000F82663 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68622AE323DF2F4000F82663 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		68622AE523DF2F4000F82663 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68622AE823DF2F4000F82663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68622AEB23DF2F4000F82663 /* Ambion_IOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ambion_IOS.xcdatamodel; sourceTree = "<group>"; };
+		68622AED23DF2F4100F82663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68622AF023DF2F4100F82663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68622AF223DF2F4100F82663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68622AF723DF2F4200F82663 /* Ambion-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ambion-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68622AFB23DF2F4200F82663 /* Ambion_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ambion_IOSTests.swift; sourceTree = "<group>"; };
+		68622AFD23DF2F4200F82663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68622B0223DF2F4200F82663 /* Ambion-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ambion-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68622B0623DF2F4200F82663 /* Ambion_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ambion_IOSUITests.swift; sourceTree = "<group>"; };
+		68622B0823DF2F4200F82663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D8FD0755465C4F742CE028A /* Pods-Ambion-IOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ambion-IOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Ambion-IOSTests/Pods-Ambion-IOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		78ADBFBC33B052DFCD68A604 /* Pods_Ambion_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ambion_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4E517EE7CACA2B508BF704 /* Pods-Ambion-IOS-Ambion-IOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ambion-IOS-Ambion-IOSUITests.release.xcconfig"; path = "Target Support Files/Pods-Ambion-IOS-Ambion-IOSUITests/Pods-Ambion-IOS-Ambion-IOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF0678761A364A2C9930FCC9 /* Pods-Ambion-IOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ambion-IOSTests.release.xcconfig"; path = "Target Support Files/Pods-Ambion-IOSTests/Pods-Ambion-IOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9BB9379F8E575F08F6C822D /* Pods_Ambion_IOS_Ambion_IOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ambion_IOS_Ambion_IOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6466A81D97BDA8D03C84C56 /* Pods-Ambion-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ambion-IOS.debug.xcconfig"; path = "Target Support Files/Pods-Ambion-IOS/Pods-Ambion-IOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FA7E18C2085385C1879DCEF8 /* Pods_Ambion_IOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ambion_IOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68622ADB23DF2F4000F82663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A83A4B7B20D6C13F85DCFFA /* Pods_Ambion_IOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68622AF423DF2F4200F82663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED981C51BF065A6BEDBA35CA /* Pods_Ambion_IOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68622AFF23DF2F4200F82663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C443E0B819F53D257F8602C8 /* Pods_Ambion_IOS_Ambion_IOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68622AD523DF2F4000F82663 = {
+			isa = PBXGroup;
+			children = (
+				68622AE023DF2F4000F82663 /* Ambion-IOS */,
+				68622AFA23DF2F4200F82663 /* Ambion-IOSTests */,
+				68622B0523DF2F4200F82663 /* Ambion-IOSUITests */,
+				68622ADF23DF2F4000F82663 /* Products */,
+				A0E56A606FCF2D454B63A21E /* Pods */,
+				79A20F1C84875B2F3AEB9D8D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		68622ADF23DF2F4000F82663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68622ADE23DF2F4000F82663 /* Ambion-IOS.app */,
+				68622AF723DF2F4200F82663 /* Ambion-IOSTests.xctest */,
+				68622B0223DF2F4200F82663 /* Ambion-IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68622AE023DF2F4000F82663 /* Ambion-IOS */ = {
+			isa = PBXGroup;
+			children = (
+				68622AE123DF2F4000F82663 /* AppDelegate.swift */,
+				68622AE323DF2F4000F82663 /* SceneDelegate.swift */,
+				68622AE523DF2F4000F82663 /* ViewController.swift */,
+				68622AE723DF2F4000F82663 /* Main.storyboard */,
+				68622AED23DF2F4100F82663 /* Assets.xcassets */,
+				68622AEF23DF2F4100F82663 /* LaunchScreen.storyboard */,
+				68622AF223DF2F4100F82663 /* Info.plist */,
+				68622AEA23DF2F4000F82663 /* Ambion_IOS.xcdatamodeld */,
+			);
+			path = "Ambion-IOS";
+			sourceTree = "<group>";
+		};
+		68622AFA23DF2F4200F82663 /* Ambion-IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				68622AFB23DF2F4200F82663 /* Ambion_IOSTests.swift */,
+				68622AFD23DF2F4200F82663 /* Info.plist */,
+			);
+			path = "Ambion-IOSTests";
+			sourceTree = "<group>";
+		};
+		68622B0523DF2F4200F82663 /* Ambion-IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68622B0623DF2F4200F82663 /* Ambion_IOSUITests.swift */,
+				68622B0823DF2F4200F82663 /* Info.plist */,
+			);
+			path = "Ambion-IOSUITests";
+			sourceTree = "<group>";
+		};
+		79A20F1C84875B2F3AEB9D8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78ADBFBC33B052DFCD68A604 /* Pods_Ambion_IOS.framework */,
+				E9BB9379F8E575F08F6C822D /* Pods_Ambion_IOS_Ambion_IOSUITests.framework */,
+				FA7E18C2085385C1879DCEF8 /* Pods_Ambion_IOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0E56A606FCF2D454B63A21E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6466A81D97BDA8D03C84C56 /* Pods-Ambion-IOS.debug.xcconfig */,
+				02CF2DA2F22A1FB11221E134 /* Pods-Ambion-IOS.release.xcconfig */,
+				3575B6A77337D2B197C53432 /* Pods-Ambion-IOS-Ambion-IOSUITests.debug.xcconfig */,
+				8E4E517EE7CACA2B508BF704 /* Pods-Ambion-IOS-Ambion-IOSUITests.release.xcconfig */,
+				6D8FD0755465C4F742CE028A /* Pods-Ambion-IOSTests.debug.xcconfig */,
+				DF0678761A364A2C9930FCC9 /* Pods-Ambion-IOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68622ADD23DF2F4000F82663 /* Ambion-IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68622B0B23DF2F4200F82663 /* Build configuration list for PBXNativeTarget "Ambion-IOS" */;
+			buildPhases = (
+				58D2E486E006A5D45B371BE7 /* [CP] Check Pods Manifest.lock */,
+				68622ADA23DF2F4000F82663 /* Sources */,
+				68622ADB23DF2F4000F82663 /* Frameworks */,
+				68622ADC23DF2F4000F82663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ambion-IOS";
+			productName = "Ambion-IOS";
+			productReference = 68622ADE23DF2F4000F82663 /* Ambion-IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68622AF623DF2F4200F82663 /* Ambion-IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68622B0E23DF2F4200F82663 /* Build configuration list for PBXNativeTarget "Ambion-IOSTests" */;
+			buildPhases = (
+				134D92D963956E4BA56C12EC /* [CP] Check Pods Manifest.lock */,
+				68622AF323DF2F4200F82663 /* Sources */,
+				68622AF423DF2F4200F82663 /* Frameworks */,
+				68622AF523DF2F4200F82663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68622AF923DF2F4200F82663 /* PBXTargetDependency */,
+			);
+			name = "Ambion-IOSTests";
+			productName = "Ambion-IOSTests";
+			productReference = 68622AF723DF2F4200F82663 /* Ambion-IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68622B0123DF2F4200F82663 /* Ambion-IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68622B1123DF2F4200F82663 /* Build configuration list for PBXNativeTarget "Ambion-IOSUITests" */;
+			buildPhases = (
+				41DF18828E24AFEBB1BB73C0 /* [CP] Check Pods Manifest.lock */,
+				68622AFE23DF2F4200F82663 /* Sources */,
+				68622AFF23DF2F4200F82663 /* Frameworks */,
+				68622B0023DF2F4200F82663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68622B0423DF2F4200F82663 /* PBXTargetDependency */,
+			);
+			name = "Ambion-IOSUITests";
+			productName = "Ambion-IOSUITests";
+			productReference = 68622B0223DF2F4200F82663 /* Ambion-IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68622AD623DF2F4000F82663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ashot Martirosyan";
+				TargetAttributes = {
+					68622ADD23DF2F4000F82663 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					68622AF623DF2F4200F82663 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 68622ADD23DF2F4000F82663;
+					};
+					68622B0123DF2F4200F82663 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 68622ADD23DF2F4000F82663;
+					};
+				};
+			};
+			buildConfigurationList = 68622AD923DF2F4000F82663 /* Build configuration list for PBXProject "Ambion-IOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68622AD523DF2F4000F82663;
+			productRefGroup = 68622ADF23DF2F4000F82663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68622ADD23DF2F4000F82663 /* Ambion-IOS */,
+				68622AF623DF2F4200F82663 /* Ambion-IOSTests */,
+				68622B0123DF2F4200F82663 /* Ambion-IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68622ADC23DF2F4000F82663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68622AF123DF2F4100F82663 /* LaunchScreen.storyboard in Resources */,
+				68622AEE23DF2F4100F82663 /* Assets.xcassets in Resources */,
+				68622AE923DF2F4000F82663 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68622AF523DF2F4200F82663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68622B0023DF2F4200F82663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		134D92D963956E4BA56C12EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ambion-IOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41DF18828E24AFEBB1BB73C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ambion-IOS-Ambion-IOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58D2E486E006A5D45B371BE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ambion-IOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68622ADA23DF2F4000F82663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68622AE623DF2F4000F82663 /* ViewController.swift in Sources */,
+				68622AE223DF2F4000F82663 /* AppDelegate.swift in Sources */,
+				68622AE423DF2F4000F82663 /* SceneDelegate.swift in Sources */,
+				68622AEC23DF2F4000F82663 /* Ambion_IOS.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68622AF323DF2F4200F82663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68622AFC23DF2F4200F82663 /* Ambion_IOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68622AFE23DF2F4200F82663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68622B0723DF2F4200F82663 /* Ambion_IOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68622AF923DF2F4200F82663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68622ADD23DF2F4000F82663 /* Ambion-IOS */;
+			targetProxy = 68622AF823DF2F4200F82663 /* PBXContainerItemProxy */;
+		};
+		68622B0423DF2F4200F82663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68622ADD23DF2F4000F82663 /* Ambion-IOS */;
+			targetProxy = 68622B0323DF2F4200F82663 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68622AE723DF2F4000F82663 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68622AE823DF2F4000F82663 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68622AEF23DF2F4100F82663 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68622AF023DF2F4100F82663 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68622B0923DF2F4200F82663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68622B0A23DF2F4200F82663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68622B0C23DF2F4200F82663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6466A81D97BDA8D03C84C56 /* Pods-Ambion-IOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ambion-IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AsH.Ambion-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68622B0D23DF2F4200F82663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02CF2DA2F22A1FB11221E134 /* Pods-Ambion-IOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ambion-IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AsH.Ambion-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		68622B0F23DF2F4200F82663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D8FD0755465C4F742CE028A /* Pods-Ambion-IOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ambion-IOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AsH.Ambion-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ambion-IOS.app/Ambion-IOS";
+			};
+			name = Debug;
+		};
+		68622B1023DF2F4200F82663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0678761A364A2C9930FCC9 /* Pods-Ambion-IOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ambion-IOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AsH.Ambion-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ambion-IOS.app/Ambion-IOS";
+			};
+			name = Release;
+		};
+		68622B1223DF2F4200F82663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3575B6A77337D2B197C53432 /* Pods-Ambion-IOS-Ambion-IOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ambion-IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AsH.Ambion-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ambion-IOS";
+			};
+			name = Debug;
+		};
+		68622B1323DF2F4200F82663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4E517EE7CACA2B508BF704 /* Pods-Ambion-IOS-Ambion-IOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ambion-IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AsH.Ambion-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ambion-IOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68622AD923DF2F4000F82663 /* Build configuration list for PBXProject "Ambion-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68622B0923DF2F4200F82663 /* Debug */,
+				68622B0A23DF2F4200F82663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68622B0B23DF2F4200F82663 /* Build configuration list for PBXNativeTarget "Ambion-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68622B0C23DF2F4200F82663 /* Debug */,
+				68622B0D23DF2F4200F82663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68622B0E23DF2F4200F82663 /* Build configuration list for PBXNativeTarget "Ambion-IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68622B0F23DF2F4200F82663 /* Debug */,
+				68622B1023DF2F4200F82663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68622B1123DF2F4200F82663 /* Build configuration list for PBXNativeTarget "Ambion-IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68622B1223DF2F4200F82663 /* Debug */,
+				68622B1323DF2F4200F82663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		68622AEA23DF2F4000F82663 /* Ambion_IOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				68622AEB23DF2F4000F82663 /* Ambion_IOS.xcdatamodel */,
+			);
+			currentVersion = 68622AEB23DF2F4000F82663 /* Ambion_IOS.xcdatamodel */;
+			path = Ambion_IOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 68622AD623DF2F4000F82663 /* Project object */;
+}

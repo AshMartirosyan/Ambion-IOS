@@ -1,0 +1,6 @@
+framework module Pods_Ambion_IOS_Ambion_IOSUITests {
+  umbrella header "Pods-Ambion-IOS-Ambion-IOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
