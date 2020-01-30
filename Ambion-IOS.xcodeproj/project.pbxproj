@@ -10,7 +10,7 @@
 		4A83A4B7B20D6C13F85DCFFA /* Pods_Ambion_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78ADBFBC33B052DFCD68A604 /* Pods_Ambion_IOS.framework */; };
 		68622AE223DF2F4000F82663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68622AE123DF2F4000F82663 /* AppDelegate.swift */; };
 		68622AE423DF2F4000F82663 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68622AE323DF2F4000F82663 /* SceneDelegate.swift */; };
-		68622AE623DF2F4000F82663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68622AE523DF2F4000F82663 /* ViewController.swift */; };
+		68622AE623DF2F4000F82663 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68622AE523DF2F4000F82663 /* SignInViewController.swift */; };
 		68622AE923DF2F4000F82663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68622AE723DF2F4000F82663 /* Main.storyboard */; };
 		68622AEC23DF2F4000F82663 /* Ambion_IOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68622AEA23DF2F4000F82663 /* Ambion_IOS.xcdatamodeld */; };
 		68622AEE23DF2F4100F82663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68622AED23DF2F4100F82663 /* Assets.xcassets */; };
@@ -44,7 +44,7 @@
 		68622ADE23DF2F4000F82663 /* Ambion-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ambion-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68622AE123DF2F4000F82663 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68622AE323DF2F4000F82663 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		68622AE523DF2F4000F82663 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68622AE523DF2F4000F82663 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		68622AE823DF2F4000F82663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68622AEB23DF2F4000F82663 /* Ambion_IOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ambion_IOS.xcdatamodel; sourceTree = "<group>"; };
 		68622AED23DF2F4100F82663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 			children = (
 				68622AE123DF2F4000F82663 /* AppDelegate.swift */,
 				68622AE323DF2F4000F82663 /* SceneDelegate.swift */,
-				68622AE523DF2F4000F82663 /* ViewController.swift */,
+				68622AE523DF2F4000F82663 /* SignInViewController.swift */,
 				68622AE723DF2F4000F82663 /* Main.storyboard */,
 				68622AED23DF2F4100F82663 /* Assets.xcassets */,
 				68622AEF23DF2F4100F82663 /* LaunchScreen.storyboard */,
@@ -168,7 +168,6 @@
 				6D8FD0755465C4F742CE028A /* Pods-Ambion-IOSTests.debug.xcconfig */,
 				DF0678761A364A2C9930FCC9 /* Pods-Ambion-IOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -375,7 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68622AE623DF2F4000F82663 /* ViewController.swift in Sources */,
+				68622AE623DF2F4000F82663 /* SignInViewController.swift in Sources */,
 				68622AE223DF2F4000F82663 /* AppDelegate.swift in Sources */,
 				68622AE423DF2F4000F82663 /* SceneDelegate.swift in Sources */,
 				68622AEC23DF2F4000F82663 /* Ambion_IOS.xcdatamodeld in Sources */,
