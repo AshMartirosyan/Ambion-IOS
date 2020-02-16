@@ -15,29 +15,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreenIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Gbl-ii-Fjv">
-                                <rect key="frame" x="87" y="174" width="240" height="200"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreenIcon" translatesAutoresizingMaskIntoConstraints="NO" id="DgQ-BT-3fp">
+                                <rect key="frame" x="87" y="324" width="240" height="200"/>
                                 <color key="tintColor" red="0.96078431369999995" green="0.93333333330000001" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="MTj-41-FC5"/>
+                                    <constraint firstAttribute="width" constant="240" id="JH1-U4-fPJ"/>
+                                    <constraint firstAttribute="height" constant="200" id="n27-Uw-dPz"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AMBION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iz3-2J-pSP">
-                                <rect key="frame" x="87" y="524" width="240" height="53"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="46"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AMBION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MLr-ie-XMW">
+                                <rect key="frame" x="87" y="532" width="240" height="62"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="52"/>
                                 <color key="textColor" red="0.96078431369999995" green="0.93333333330000001" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.36078431372549019" green="0.12156862745098039" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="iz3-2J-pSP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="1Ue-ha-5dm"/>
-                            <constraint firstItem="iz3-2J-pSP" firstAttribute="top" secondItem="Gbl-ii-Fjv" secondAttribute="bottom" constant="150" id="Haa-5M-nEd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iz3-2J-pSP" secondAttribute="trailing" constant="87" id="LGI-Cm-EPt"/>
-                            <constraint firstItem="Gbl-ii-Fjv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="WyS-5P-Oe8"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gbl-ii-Fjv" secondAttribute="trailing" constant="87" id="Xu7-Eh-LrR"/>
-                            <constraint firstItem="Gbl-ii-Fjv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="130" id="isL-8q-u7D"/>
+                            <constraint firstItem="DgQ-BT-3fp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="3TG-IR-gXw"/>
+                            <constraint firstItem="DgQ-BT-3fp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="280" id="bc3-fZ-t7d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MLr-ie-XMW" secondAttribute="trailing" constant="87" id="fIF-96-WYW"/>
+                            <constraint firstItem="MLr-ie-XMW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="n0y-0C-oXi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DgQ-BT-3fp" secondAttribute="trailing" constant="87" id="q2o-CS-5Qn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MLr-ie-XMW" secondAttribute="bottom" constant="268" id="tMA-Zh-INe"/>
+                            <constraint firstItem="MLr-ie-XMW" firstAttribute="top" secondItem="DgQ-BT-3fp" secondAttribute="bottom" constant="8" id="tc8-Sj-rRc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -48,6 +49,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LaunchScreenIcon" width="48" height="48"/>
+        <image name="LaunchScreenIcon" width="64" height="64"/>
     </resources>
 </document>

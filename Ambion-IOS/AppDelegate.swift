@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  Ambion-IOS
-//
-//  Created by Ashot Martirosyan on 1/27/20.
 //  Copyright © 2020 Ashot Martirosyan. All rights reserved.
-//
 
 import UIKit
 import CoreData
