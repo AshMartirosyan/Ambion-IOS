@@ -3,19 +3,19 @@
 import UIKit
 
 class SignInViewController: UIViewController {
-
+    
     private var safeArea: UILayoutGuide!
     private var imageView: UIImageView!
     private var textField: CustomTextField!
     private var keyboardToolbar: UIToolbar!
     private var logInButton: UIButton!
     private var helperTextLabel: UILabel!
-
+    
     private var idNumber: String = ""
-
+    
     let dateModel = SignINModel()
     let profileViewController = ProfileViewController()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,7 +25,7 @@ class SignInViewController: UIViewController {
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(showFirstScreen))
         view.addGestureRecognizer(tapGesture)
-
+        
         safeArea = view.safeAreaLayoutGuide
         imageView = setupImageView()
         textField = setupTextField()
@@ -33,22 +33,27 @@ class SignInViewController: UIViewController {
         keyboardToolbar = setupKeyboardToolbar()
         logInButton = setupLogInButton()
         textField.delegate = self
-
+        
         profileViewController.modalPresentationStyle = .fullScreen
         profileViewController.modalTransitionStyle = .flipHorizontal
     }
-
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
         dateModel.subscribe(name: .SignInViewController)
     }
-
+    
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         navigationController?.setNavigationBarHidden(false, animated: animated)
     }
-
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        dateModel.unsubscript()
+    }
+    
     func createBackgroundGradient() -> CAGradientLayer {
         let gradientLayer = CAGradientLayer()
         let color1 = UIColor(red: 87.0 / 255.0, green: 17.0 / 255.0, blue: 74.0 / 255.0, alpha: 1.0).cgColor
@@ -58,7 +63,7 @@ class SignInViewController: UIViewController {
         gradientLayer.locations = [0.0, 0.75, 1.0]
         return gradientLayer
     }
-
+    
     func setupKeyboardToolbar() ->UIToolbar{
         let toolbar = UIToolbar(frame: CGRect(x: -0, y: -0, width: UIScreen.main.bounds.width, height: 40))
         toolbar.barStyle = .default
@@ -69,7 +74,7 @@ class SignInViewController: UIViewController {
         textField.inputAccessoryView = toolbar
         return toolbar
     }
-
+    
     func setupImageView() -> UIImageView{
         let image = UIImage(named: "SignInPage")
         let imageView = UIImageView(image: image)
@@ -85,7 +90,7 @@ class SignInViewController: UIViewController {
         ])
         return imageView
     }
-
+    
     func setupTextField() -> CustomTextField{
         let textField = CustomTextField()
         textField.placeholder = "Please enter your Id"
@@ -105,7 +110,7 @@ class SignInViewController: UIViewController {
         ])
         return textField
     }
-
+    
     func setupHelperTextLabel() -> UILabel{
         let helperText = UILabel()
         helperText.clipsToBounds = true
@@ -122,7 +127,7 @@ class SignInViewController: UIViewController {
         ])
         return helperText
     }
-
+    
     func setupLogInButton()-> UIButton{
         let logInButton = UIButton()
         logInButton.setTitle("Log In", for: .normal)
@@ -142,12 +147,18 @@ class SignInViewController: UIViewController {
         ])
         return logInButton
     }
-
+    
     @objc func logInClicked(){
-        NotificationCenter.default.post(name: .SignInViewController, object: self, userInfo: ["idNumber": idNumber])
-        self.navigationController?.pushViewController(profileViewController, animated: true)
+        guard let nuberOfTextChars = textField.text?.count,
+            nuberOfTextChars < 8
+            else {
+                Dispatcher.dispatch(name: .SignInViewController, object: self, userInfo: ["idNumber": idNumber])
+                self.navigationController?.pushViewController(profileViewController, animated: true)
+                return
+        }
+        helperTextLabel.text = "Please set correct format"
     }
-
+    
     @objc func showFirstScreen(){
         textField.resignFirstResponder()
     }

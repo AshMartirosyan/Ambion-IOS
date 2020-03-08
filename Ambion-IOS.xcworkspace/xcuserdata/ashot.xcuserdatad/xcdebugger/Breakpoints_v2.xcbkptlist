@@ -46,10 +46,10 @@
             filePath = "Ambion-IOS/Screens/SignInScreen/SignInViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "155"
-            endingLineNumber = "155"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "showFirstScreen()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -62,8 +62,8 @@
             filePath = "Ambion-IOS/Screens/SignInScreen/SignInViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
             landmarkName = "setupLogInButton()"
             landmarkType = "7">
          </BreakpointContent>
@@ -78,8 +78,8 @@
             filePath = "Ambion-IOS/Screens/SignInScreen/SignInModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "SignINModel"
             landmarkType = "3">
          </BreakpointContent>
@@ -110,8 +110,8 @@
             filePath = "Ambion-IOS/Screens/SignInScreen/SignInModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
             landmarkName = "catchingNotification(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -126,8 +126,10 @@
             filePath = "Ambion-IOS/Screens/SignInScreen/SignInViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "176"
-            endingLineNumber = "176">
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "SignInViewController"
+            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -140,10 +142,10 @@
             filePath = "Ambion-IOS/Screens/SignInScreen/SignInModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
-            landmarkName = "SignINModel"
-            landmarkType = "3">
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "unsubscript()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -156,8 +158,8 @@
             filePath = "Ambion-IOS/Screens/SignInScreen/SignInModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
             landmarkName = "catchingNotification(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -172,9 +174,9 @@
             filePath = "Ambion-IOS/Screens/SignInScreen/SignInViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "167"
-            endingLineNumber = "167"
-            landmarkName = "textFieldDidEndEditing(_:)"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "textField(_:shouldChangeCharactersIn:replacementString:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -188,8 +190,8 @@
             filePath = "Ambion-IOS/Screens/SignInScreen/SignInViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "164"
-            endingLineNumber = "164"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
             landmarkName = "textField(_:shouldChangeCharactersIn:replacementString:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -207,22 +209,6 @@
             startingLineNumber = "7"
             endingLineNumber = "7"
             landmarkName = "canPerformAction(_:withSender:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C4D263D7-FD9A-44E7-9DB9-3D79DF0E27E6"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Ambion-IOS/Screens/SignInScreen/SignInViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "148"
-            endingLineNumber = "148"
-            landmarkName = "logInClicked()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -501,22 +487,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "898CEC8B-0238-4B1A-86A1-27AA68D98843"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Ambion-IOS/Screens/ProfileScreen/ProfileViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "panGestureAction(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "7FF84C03-78CA-4DDF-BB99-9AC8F353CF91"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -524,26 +494,498 @@
             filePath = "Ambion-IOS/Screens/ProfileScreen/ProfileViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "panGestureAction(_:)"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "ProfileViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DD853EE-31F6-4A70-B30E-C38DF35533EA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ambion-IOS/Screens/SignInScreen/SignInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "logInClicked()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4D45EE60-400D-4937-B708-34F24C7726B0"
+            uuid = "6CA69823-2819-4ACF-9447-1EC0FE935A15"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Ambion-IOS/Screens/ProfileScreen/ProfileViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30690735-92DF-4C95-BD23-4DD136892890"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ambion-IOS/Screens/ProfileScreen/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "addButtonClicked()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1598B4DB-06BE-4662-8471-D00CFFF51C31"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ambion-IOS/Screens/SignInScreen/SignInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
             endingLineNumber = "44"
-            landmarkName = "panGestureAction(_:)"
+            landmarkName = "viewDidAppear(_:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D90D3A02-832C-4983-A22B-8DE37AE16168"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ambion-IOS/Screens/SignInScreen/SignInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "logInClicked()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D636E72-5477-42D6-9151-8EECBA14F751"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ambion-IOS/Screens/SignInScreen/SignInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "textField(_:shouldChangeCharactersIn:replacementString:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AA45013-A09B-4618-9F6C-CE1110E771C0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ambion-IOS/Screens/SignInScreen/SignInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "SignInViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0FCF415-DE7C-4341-9BF4-9756FFD773FF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ambion-IOS/Screens/SignInScreen/SignInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "textField(_:shouldChangeCharactersIn:replacementString:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB33EC30-BB5B-4334-ABF2-5FC3700EDF42"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ambion-IOS/Screens/SignInScreen/SignInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "SignInViewController"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB857DCB-90E0-44E9-AE94-F5DD44925081"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ambion-IOS/Screens/SignInScreen/SignInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AF2E73C-636E-4F27-9F8C-99AA8998B8E7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ambion-IOS/Screens/SearchScreen/ChooseTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "798FA76C-4FF8-4915-87E3-60532D545229"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ambion-IOS/Screens/SearchScreen/ChooseTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6DFE9200-DAAE-447C-834B-3F67BB995EFE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ambion-IOS/Screens/SearchScreen/LecturerTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "setSelected(_:animated:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A54ED474-CEEA-4421-9F80-4AB009EB9459"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ambion-IOS/Screens/SearchScreen/ChooseTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2D779B9-6AC5-4F7E-96A2-221FB31DCECD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ambion-IOS/Screens/SearchScreen/ChooseTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5A6A9A2-4BC7-4793-8596-421AE004C19B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ambion-IOS/Screens/SearchScreen/AmbionsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1889EE55-163A-467D-93E4-972E62437EF0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ambion-IOS/Screens/SearchScreen/AmbionsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "388F5744-5848-4C3E-AF72-AF4B1D018E79"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ambion-IOS/Screens/SearchScreen/AmbionTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "AmbionTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "388F5744-5848-4C3E-AF72-AF4B1D018E79 - 646416266684f09"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ambion_IOS.AmbionTableViewCell.ambionImageView.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Ambion-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashot/Desktop/Ambion-IOS/Ambion-IOS/Screens/SearchScreen/AmbionTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "388F5744-5848-4C3E-AF72-AF4B1D018E79 - fea69890f3adbb35"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ambion_IOS.AmbionTableViewCell.ambionImageView.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Ambion-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashot/Desktop/Ambion-IOS/Ambion-IOS/Screens/SearchScreen/AmbionTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "388F5744-5848-4C3E-AF72-AF4B1D018E79 - 568aa9f25ed3f006"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ambion_IOS.AmbionTableViewCell.ambionImageView.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Ambion-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashot/Desktop/Ambion-IOS/Ambion-IOS/Screens/SearchScreen/AmbionTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "388F5744-5848-4C3E-AF72-AF4B1D018E79 - 3cc3eed1b528b0c2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ambion_IOS.AmbionTableViewCell.ambionImageView.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Ambion-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashot/Desktop/Ambion-IOS/Ambion-IOS/Screens/SearchScreen/AmbionTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "388F5744-5848-4C3E-AF72-AF4B1D018E79 - 95c1639025978ddf"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ambion_IOS.AmbionTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Ambion_IOS.AmbionTableViewCell"
+                  moduleName = "Ambion-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashot/Desktop/Ambion-IOS/Ambion-IOS/Screens/SearchScreen/AmbionTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "388F5744-5848-4C3E-AF72-AF4B1D018E79 - ec0d1eae6848ee3e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ambion_IOS.AmbionTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Ambion_IOS.AmbionTableViewCell&gt;"
+                  moduleName = "Ambion-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashot/Desktop/Ambion-IOS/Ambion-IOS/Screens/SearchScreen/AmbionTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C56423CC-8EE1-4BBC-B7E2-0CB3EB9F094A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ambion-IOS/Screens/SearchScreen/AmbionTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "AmbionTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C56423CC-8EE1-4BBC-B7E2-0CB3EB9F094A - dcc4fc236d6b384a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ambion_IOS.AmbionTableViewCell.ambionNameLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Ambion-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashot/Desktop/Ambion-IOS/Ambion-IOS/Screens/SearchScreen/AmbionTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "C56423CC-8EE1-4BBC-B7E2-0CB3EB9F094A - 1f7d4a8376d15476"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ambion_IOS.AmbionTableViewCell.ambionNameLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Ambion-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashot/Desktop/Ambion-IOS/Ambion-IOS/Screens/SearchScreen/AmbionTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "C56423CC-8EE1-4BBC-B7E2-0CB3EB9F094A - 430fda84393d5147"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ambion_IOS.AmbionTableViewCell.ambionNameLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Ambion-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashot/Desktop/Ambion-IOS/Ambion-IOS/Screens/SearchScreen/AmbionTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "C56423CC-8EE1-4BBC-B7E2-0CB3EB9F094A - c459cbf61b0d0e13"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ambion_IOS.AmbionTableViewCell.ambionNameLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Ambion-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashot/Desktop/Ambion-IOS/Ambion-IOS/Screens/SearchScreen/AmbionTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "C56423CC-8EE1-4BBC-B7E2-0CB3EB9F094A - 95c1639025978ddf"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ambion_IOS.AmbionTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Ambion_IOS.AmbionTableViewCell"
+                  moduleName = "Ambion-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashot/Desktop/Ambion-IOS/Ambion-IOS/Screens/SearchScreen/AmbionTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "C56423CC-8EE1-4BBC-B7E2-0CB3EB9F094A - ec0d1eae6848ee3e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ambion_IOS.AmbionTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Ambion_IOS.AmbionTableViewCell&gt;"
+                  moduleName = "Ambion-IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ashot/Desktop/Ambion-IOS/Ambion-IOS/Screens/SearchScreen/AmbionTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "162">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

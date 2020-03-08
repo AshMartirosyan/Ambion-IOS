@@ -8,10 +8,19 @@
 
 import UIKit
 
-class SearchTableViewController: UITableViewController {
+class AmbionsTableViewController: UITableViewController {
 
+    private var facultyDateModel: FacultyDateModel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        facultyDateModel = FacultyDateModel()
+        tableView.tableFooterView = UIView(frame: .zero)
+        tableView.rowHeight = UITableView.automaticDimension
+        tableView.estimatedRowHeight = 72
+        
+        tableView.register(AmbionTableViewCell.self, forCellReuseIdentifier: "lecturer")
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -22,25 +31,30 @@ class SearchTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        return facultyDateModel.facultyMap.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "lecturer", for: indexPath) as! AmbionTableViewCell
+        let keyArrays = Array(facultyDateModel.facultyMap.keys)
+        cell.ambionNameLabel.text = keyArrays[indexPath.row]
+        cell.ambionImageView.image = #imageLiteral(resourceName: "profilePhoto")
+        cell.accessoryType = .disclosureIndicator
         return cell
     }
-    */
 
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 88
+    }
+
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

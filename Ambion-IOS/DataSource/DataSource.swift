@@ -3,5 +3,6 @@
 import Foundation
 
 class DataSource{
-    public static let token:String? = "123"
+    public static let token:String? = nil
+    public static let isEntered: Bool = false
 }
